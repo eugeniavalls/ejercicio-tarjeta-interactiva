@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.card-front {
+  position: relative;
+  width: 450px;
+}
+
+.card__text {
+  position: absolute;
+  bottom: 0;
+  padding: 0 32px 27px 32px;
+  color: white;
+  width: 100%;
+}
+
+.card__number {
+  font-size: 28px;
+}
+
+.card__container-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.card-back {
+  position: relative;
+  width: 450px;
+  left: 95px;
+}
+
+.card__cvc {
+  position: absolute;
+  font-size: 14px;
+  text-align: right;
+  top: 95px;
+  padding-right: 60px;
+  color: white;
+  width: 100%;
+}
